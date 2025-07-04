@@ -17,5 +17,5 @@ COPY . .
 EXPOSE 3000
 
 # Run the app (adjust if your entry file is not src/index.js)
-CMD ["node", "src/index.js"]
+CMD ["node", "src/app.js"]
 
